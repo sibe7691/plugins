@@ -368,6 +368,7 @@
     if (!navigationAction.targetFrame.isMainFrame) {
         [webView loadRequest:navigationAction.request];
     }
+
     return nil;
 }
 @end
